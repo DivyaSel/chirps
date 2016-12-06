@@ -1,0 +1,19 @@
+.vertical-align {
+    display:flex;
+    align-items:center;
+}
+span.glyphicon{
+    font-size:1em;
+}
+.marginLeft{
+    margin-left: 20px;
+}
+.marginBottom{
+    margin-bottom: 20px;
+}
+.marginTop{
+    margin-top: 20px;
+}
+.marginRight{
+    margin-right: 20px;
+}

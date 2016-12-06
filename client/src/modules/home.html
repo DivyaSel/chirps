@@ -1,0 +1,21 @@
+<template>
+        <div class="col-lg-2 input-group marginTop">
+            <span show.bind="!showLogon" class="glyphicon glyphicon-arrow-left"  click.trigger="showRegister()">
+	        </span>
+        </div>
+        <div class="panel panel-default marginTop">
+            <div class="panel-body">
+                <div class="col-lg-2">
+                    <h1>${message}</h1>
+                </div>
+                <div class="col-lg-2 pull-right">
+                    <img height="100px" width="100px" src="img/chirpLogo.jpg" />
+                </div>
+            </div>
+        </div>
+
+    <div class="marginTop">
+        <compose show.bind="showLogon" view="./components/login.html"></compose>
+        <compose show.bind="!showLogon" view="./components/register.html"></compose>
+    </div>
+</template>
